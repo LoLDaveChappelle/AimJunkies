@@ -1,0 +1,15 @@
+﻿  pch.cpp
+  AlqoholicVayne.cpp
+  OnLoad.cpp
+  Plugin.cpp
+  PluginSDK.cpp
+AlqoholicVayne.cpp(97): warning C4804: '<=': unsafe use of type 'bool' in operation
+AlqoholicVayne.cpp(109): warning C4804: '<=': unsafe use of type 'bool' in operation
+AlqoholicVayne.cpp(113): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+AlqoholicVayne.cpp(117): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     Creating library C:\Users\billy\Documents\GitHub\AimJunkies\AlqoholicVayne\Release\AlqoholicVayne\AlqoholicVayne.lib and object C:\Users\billy\Documents\GitHub\AimJunkies\AlqoholicVayne\Release\AlqoholicVayne\AlqoholicVayne.exp
+  Generating code
+  All 68 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  AlqoholicVayne.vcxproj -> C:\Users\billy\Documents\GitHub\AimJunkies\AlqoholicVayne\Release\AlqoholicVayne\AlqoholicVayne.dll
+  AlqoholicVayne.vcxproj -> C:\Users\billy\Documents\GitHub\AimJunkies\AlqoholicVayne\Release\AlqoholicVayne\AlqoholicVayne.pdb (Full PDB)
