@@ -137,6 +137,23 @@ public:
 		return *this;
 	}
 
+	Vec2 Perpendicular()
+	{
+		return Vec2(-y, x);
+	}
+
+	bool IsValid()
+	{
+		return *this != Vec2(0, 0);
+	}
+
+	float Distance(Vec2 anotherVec2)
+	{
+		auto disX = anotherVec2.x - x;
+		auto disY = anotherVec2.y - y;
+		return sqrt((disX * disX) + (disY * disY));
+	}
+
 	float Length()
 	{
 		return sqrtf(x * x + y * y);

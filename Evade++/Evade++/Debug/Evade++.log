@@ -1,6 +1,25 @@
-﻿  Skillshot.cpp
-  Evade++.cpp
-c:\users\billy\documents\github\aimjunkies\evade++\evade++\evade++.h(43): error C3646: 'IsSafePath': unknown override specifier
-c:\users\billy\documents\github\aimjunkies\evade++\evade++\evade++.h(43): error C2059: syntax error: '('
-c:\users\billy\documents\github\aimjunkies\evade++\evade++\evade++.h(43): error C2238: unexpected token(s) preceding ';'
-  Generating Code...
+﻿  stdafx.cpp
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(49): error C3646: 'Type': unknown override specifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(53): error C2061: syntax error: identifier 'SkillShotType'
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(68): error C2065: 'Type': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(68): error C2065: 'type': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(69): error C2065: 'delay': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(70): error C2065: 'radius': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(71): error C2065: 'missileSpeed': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(72): error C2065: 'addHitBox': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(73): error C2065: 'fixedRange': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(74): error C2065: 'defaultDangerValue': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(63): error C2039: 'RawRange': is not a member of 'SpellData'
+  c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(8): note: see declaration of 'SpellData'
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(72): error C3867: 'Skillshot::IsGlobal': non-standard syntax; use '&' to create a pointer to member
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(74): error C3861: 'GlobalGetMissilePosition': identifier not found
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(75): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(76): error C2039: 'Radius': is not a member of 'SpellData'
+  c:\users\billy\documents\github\aimjunkies\evade++\evade++\spelldata.h(8): note: see declaration of 'SpellData'
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(86): error C2065: 'Utils': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(86): error C2228: left of '.TickCount' must have class/struct/union
+  c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(86): note: type is 'unknown-type'
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(89): error C2065: 'Utils': undeclared identifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(89): error C2228: left of '.TickCount' must have class/struct/union
+  c:\users\billy\documents\github\aimjunkies\evade++\evade++\skillshot.h(89): note: type is 'unknown-type'

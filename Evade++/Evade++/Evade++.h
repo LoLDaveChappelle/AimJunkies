@@ -1,9 +1,9 @@
 #pragma once
-
+#include "stdafx.h"
+#include "Skillshot.h"
 #include <vector>
 #include "Vector3.h"
 #include "PluginSDK.h"
-#include "Skillshot.h"
 
 class Evade
 {
@@ -39,8 +39,8 @@ public:
 		_evadePoint = EvadePoint;
 	}
 
-	IsSafeResult IsSafe(Vec2 point);
 	SafePathResult IsSafePath(NavigationPath path, int timeOffset, int speed = -1, int delay = 0, IUnit* unit = nullptr);
+	IsSafeResult IsSafe(Vec2 point);
 	bool IsSafeToBlink(Vec2 point, int timeOffset, int delay);
 	bool IsAboutToHit(IUnit* unit, int time);
 	
