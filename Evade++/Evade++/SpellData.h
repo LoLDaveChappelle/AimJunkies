@@ -60,7 +60,9 @@ public:
 		int missileSpeed,
 		bool addHitBox,
 		bool fixedRange,
-		int defaultDangerValue)
+		int defaultDangerValue,
+		bool isDangerous,
+		std::string missileSpellName)
 	{
 		ChampionName = championName;
 		SpellName = spellName;
@@ -72,6 +74,8 @@ public:
 		AddHitBox = addHitBox;
 		FixedRange = fixedRange;
 		DangerValue = defaultDangerValue;
+		IsDangerous = isDangerous;
+		MissileSpellName = missileSpellName;
 	}
 private:
 	int _radius;
