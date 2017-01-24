@@ -15,27 +15,26 @@ enum eTargetType
 
 struct SpellData
 {
-	SpellData(const char* _Champion, int _Slot, eTargetType _Type, bool _Enabled, bool _Draw, float _Width)
+	SpellData(const char* _Champion, int _Slot, eTargetType _Type, bool _Dodgable)
 	{
 		strcpy_s(Champion, _Champion);
 
 		Slot = _Slot;
 		Type = _Type;
-		Enabled = _Enabled;
-		Draw = _Draw;
-		Width = _Width;
 
 		// We have no logic in place for these right now so we'll just disable them
 		if (Type == kDash || Type == kPassive || Type == kCastOnSelf)
+		{
 			Enabled = false;
+			Dodgable = false;
+		}
 	}
 
 	char			Champion[200];
 	int				Slot;
 	eTargetType		Type;
 	bool			Enabled;
-	bool			Draw;
-	float			Width;
+	bool			Dodgable;
 };
 
 struct SpellDataManager
