@@ -1,0 +1,6 @@
+﻿  Skillshot.cpp
+  Evade++.cpp
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\evade++.h(43): error C3646: 'IsSafePath': unknown override specifier
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\evade++.h(43): error C2059: syntax error: '('
+c:\users\billy\documents\github\aimjunkies\evade++\evade++\evade++.h(43): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
